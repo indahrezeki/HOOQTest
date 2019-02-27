@@ -1,0 +1,253 @@
+{
+  "id": "a8775e53-92b7-4f65-97a3-22344979c557",
+  "version": "2.0",
+  "name": "HOOQ",
+  "url": "https://m-nightly.hooq.tv",
+  "tests": [{
+    "id": "9a30f8ed-322e-4a9a-b29c-1f8c04d410b7",
+    "name": "Register HOOQ",
+    "commands": [{
+      "id": "39b97f34-680b-4e8c-8ff1-f45f9c4fb8be",
+      "comment": "",
+      "command": "open",
+      "target": "/discover",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9913ab1-f7fa-4cf3-9009-80e35898abc9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "878x638",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1b3a28d-3e55-466c-8a87-eb2df1cfe5e1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.cBGvjc .HorizontalCard__ImageContainer-sc-1lyllnp-2",
+      "targets": [
+        ["css=.cBGvjc .HorizontalCard__ImageContainer-sc-1lyllnp-2", "css:finder"],
+        ["xpath=//div[@id='mount']/div/div/div/div/div/div[2]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50b513f3-03f3-4708-ad64-badb8b99a61e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cBGvjc .HorizontalCard__ImageContainer-sc-1lyllnp-2",
+      "targets": [
+        ["css=.cBGvjc .HorizontalCard__ImageContainer-sc-1lyllnp-2", "css:finder"],
+        ["xpath=//div[@id='mount']/div/div/div/div/div/div[2]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b66a8623-3f9f-494e-af52-0abb0f803dea",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,333.3333435058594)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52057da2-0d21-4811-9377-631b8c817b06",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign up to watch",
+      "targets": [
+        ["linkText=Sign up to watch", "linkText"],
+        ["css=.cBGvjc .SpotlightCard__DesktopButton-sc-17z6v4m-12", "css:finder"],
+        ["xpath=(//a[contains(text(),'Sign up to watch')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mount']/div/div/div/div/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f06fd1e5-9c70-45ed-98e9-1cc7d3a2330c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Email",
+      "targets": [
+        ["linkText=Email", "linkText"],
+        ["css=.redirect_url", "css:finder"],
+        ["xpath=//a[contains(text(),'Email')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"pushData('eventLink');\"]", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '/signupemail?returnUrl=https%3A%2F%2Fm-nightly.hooq.tv%2Fauth%2Fverify%2Fev&serialNo=99e9da62-30eb-49a0-bc62-101b9e024d9c&deviceType=webClient&modelNo=webclient-aurora&deviceName=webclient-aurora%2Fnightly-74298bb&deviceSignature=50ba0342db7a9460507128ab0144b55987594e964e8cd3483b300346ef151ff5')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Email')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "176c2cdc-9711-42dc-8805-a828c1b2d415",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='email_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "agus@gmail.com"
+    }, {
+      "id": "9c07ad3a-35ab-437c-bc97-131af435816f",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='email_form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fc6b159-8fb9-47e1-b442-6a731421b50b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='email_form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "71bb6ed1-0b14-4d00-9615-3a621353efd0",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7807ba6-58ac-47a8-9c15-07cfa420f3c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Bz112c-E3DyYd",
+      "targets": [
+        ["css=.Bz112c-E3DyYd", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "617238e1-5abe-48cc-a54a-d34a679daa2d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bf87127-65a6-4cb8-aea9-82710de57038",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-3 > label",
+      "targets": [
+        ["css=.col-3 > label", "css:finder"],
+        ["xpath=//form[@id='email_form']/div[3]/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Toggle')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1911feb5-f532-4571-b3cf-de23ff541513",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.md-raised",
+      "targets": [
+        ["css=.md-raised", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='email_form']/div[4]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Berikutnya')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1054f4ce-b93f-4638-9a42-1694568ea2f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md-raised",
+      "targets": [
+        ["css=.md-raised", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='email_form']/div[4]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Berikutnya')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fc568f3-e141-414f-a7c1-a310359c031d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Skip",
+      "targets": [
+        ["linkText=Skip", "linkText"],
+        ["css=.navbarWeb__button-skip___2mPD0", "css:finder"],
+        ["xpath=//a[contains(text(),'Skip')]", "xpath:link"],
+        ["xpath=//div[@id='payment-mount']/section/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://stag-web-hooq.evergent.com/signupwithoutsku/68747470733a2f2f6d2d6e696768746c792e686f6f712e74762f617574682f7665726966792f6576||6167757340676d61696c2e636f6d|313233343536|776562636c69656e742d6175726f72612f6e696768746c792d37343239386262|776562436c69656e74|776562636c69656e742d6175726f7261|39396539646136322d333065622d343961302d626336322d313031623965303234643963||HOOQINDO|ID|19022707050130564399311|19022707050130564399311|HOOQINDO|3138302e3235332e32332e323339|E00|0')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Skip')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18df28be-f2fb-46d3-9b3c-4718ba6ebbc7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md-raised",
+      "targets": [
+        ["css=.md-raised", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='responsiveTabs']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Mulai daftar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b81f04a3-16c1-4dc3-841a-bf91b49c8742",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mobile .e2e-iconButton:nth-child(3) > img",
+      "targets": [
+        ["css=.mobile .e2e-iconButton:nth-child(3) > img", "css:finder"],
+        ["xpath=//img[@alt='Menu']", "xpath:img"],
+        ["xpath=//div[@id='mount']/header/div/a[2]/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "270a9606-898f-445d-88e0-e54ad5f23f74",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Keluar",
+      "targets": [
+        ["linkText=Keluar", "linkText"],
+        ["css=.e2e-sideMenu-logout > .SideMenu__NavLinkExternal-sc-1y2c5x4-6", "css:finder"],
+        ["xpath=(//a[contains(text(),'Keluar')])[2]", "xpath:link"],
+        ["xpath=//nav[@id='sidemenu-content']/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/auth/logout')])[2]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1daae34a-9524-4880-8c38-cc1c7527c108",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9a30f8ed-322e-4a9a-b29c-1f8c04d410b7"]
+  }],
+  "urls": ["https://m-nightly.hooq.tv/"],
+  "plugins": []
+}
